@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+
+header, #slide, #breadcrumb, #contents, footer {
+	width: 320px;
+}
+
+#top h1 a img{
+	width: 320px;
+}
+
+body {
+	background: #FFFAC6;
+}
+
+nav {
+	width: 320px;
+	margin: 0 auto;
+}
+
+nav ul {
+	margin: 0 auto;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav ul li {
+	margin: 0 auto;
+}
+
+#stage {
+	width: 320px;
+	height: 301px;
+
+	padding-top: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+#slide {
+	width: 320px;
+	height: 301px;
+	padding-top: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+div#photo1, #photo2, #photo3, #photo4 {
+		width: 320px;
+	height: 301px;
+	padding-top: 0;
+  position: absolute;
+  float: left;
+}
+
+#slide img {
+	width: 320px;
+	height: 301px;
+}
+
+#main #acMenu{
+	width: 320px;
+}
+
+
+
+#main, ul li, h2 {
+	width: auto;
+	float: none;
+}
+
+#acMenu dd.honbun {
+  float: left;
+}
+
+
+#acMenu dd.honbun{
+  overflow: hidden;
+}
+
+#sub {
+	margin-left: 10px;
+	float: none;
+}
+footer {
+	padding-top: 30px;
+}
+footer p {
+	float: none;
+}

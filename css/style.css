@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+/*基本ベース*/
+
+body {
+	background-color: #FFFAC6;
+	background-image: url(../image/IMG1.jpg), url(../image/IMG_9.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top right, top left;
+	background-attachment: fixed, fixed;
+	background-size: 28% 100%;
+	margin: 0;
+}
+
+header, nav, #breadcrumb,#slide, #contents, footer {
+	width: 840px;
+	margin: 0 auto 0 auto;
+	background-color: #FFFAC6;
+}
+
+header {
+  background-image: url(../image/IMG_52.JPG);
+}
+
+header h1 {
+	margin: 0 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	width: 210px;
+	float: left;
+}
+
+nav ul li a{
+  overflow: hidden;
+  display: block;
+  padding-top: 45px;
+  height: 0;
+}
+
+nav ul li#nav_keion a{
+  background-image: url(../image/61.210.152.127-10.gif);
+}
+
+nav ul li#nav_yuzuguitar a{
+  background-image: url(../image/61.210.152.127-11.gif);
+}
+
+nav ul li#nav_myguitar a{
+  background-image: url(../image/61.210.152.127-12.gif);
+}
+
+nav ul li#nav_blog a{
+  background-image: url(../image/61.210.152.127-13.gif);
+}
+
+
+
+
+#breadcrumb ul {
+	list-style-type: none;
+	padding: 20px 16px 16px 0;
+	margin: 0;
+}
+#breadcrumb ul li {
+	display: inline;
+	margin-right: 0;
+	margin-left: 5px;
+
+}
+
+#contents {
+	overflow: hidden;
+}
+
+#main {
+	width: 600px;
+	float: left;
+	margin-left: 5px;
+}
+
+
+#sub {
+	width: 230px;
+	float: right;
+}
+
+footer {
+	height: 84px;
+	padding-top: 10px;
+	font-size: 150%;
+	border-top: solid 2px;
+} 
+
+#acMenu dt {
+  display:block;
+  color: #000;
+  background: #00FFDD;
+  border-radius: 3px;
+  cursor:pointer;
+}
+
+#acMenu dt h2 {
+  margin-bottom: 0;
+}
+
+#acMenu dt h2 p {
+  margin-bottom: 0;
+}
+
+#acMenu dd {
+  background-image: url(../image/b031_1.gif);
+  padding: 10px 1px 8px 5px;
+  margin: 0 0 0 0;
+  border: 2px;
+  border:solid  #5B5B5B;
+  border-top: none;
+  border-radius: 0 0 18px 18px;
+  display: none;
+  font-size: 1.5em
+}
+
+
+
+#acMenu dd ul {
+  margin-left: 25px;
+}
+
+
+#acMenu dd.honbun {
+
+  margin: 0;
+  padding-right: 5px;
+}
+
+#acMenu dd.honbun .image_right{
+  float: right;
+}
+
+
+#acMenu dd.honbun{
+  overflow: hidden;
+}
+
+#contents #main .pagetop {
+  text-align: right;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+#pagetop {
+	float: right;
+	margin: 0;
+	padding: 24px 30px 24px 0;
+}
+
+#twitter {
+	position: relative;
+	margin: 50px 10px 0 0;
+}
+
+#keion #nav_keion a,
+#yuzuguitar #nav_yuzuguitar a,
+#myguitar #nav_myguitar a,
+nav ul li a:hover{
+  background-position: 0 -45px;
+}
+
+/*トップ*/
+
+#stage {
+  position: relative;
+  width: 840px;
+  height: 527px;
+  margin: 0 auto;
+}
+
+#photo1, #photo2, #photo3, #photo4{
+  position: absolute;
+  float: left;
+  width: 840px;
+  height: 527px;
+  left: 840px;
+  -moz-animation: imgtrans 20s infinite;
+  -webkit-animation: imgtrans 20s infinite;
+  animation: imgtrans 20s infinite;
+}
+
+#photo1 {
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+#photo2 {
+    -moz-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+#photo3 {
+    -moz-animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+#photo4 {
+    -moz-animation-delay: 15s;
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+}
+
+#slide {
+  width: 840px;
+  height: 527px;
+  position: relative;
+  overflow: hidden;
+}
+
+@-webkit-keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 25% { left:0%; }
+ 30% { left:-100%; }
+ 100% { left:-100%; }
+}
+@-moz-keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 25% { left:0%; }
+ 30% { left:-100%; }
+ 100% { left:-100%; }
+}
+@keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 25% { left:0%; }
+ 30% { left:-100%; }
+ 100% { left:-100%; }
+}
+
+
+
+
+#main #gaiyou h2 {
+	font-size: 1.9em;
+}
+
+#main #gaiyou h3 {
+	margin-top: 0;
+}
+
+#main #yuzuman {
+	text-align: center;
+}
+
+/**/
+
+/*軽音*/
+/**/
+
+/*ゆずギター*/
+
+
+#contents #main ul {
+	padding-left: 0;
+}
+
+
+
+
+
+
+/*dt img rotate {
+        transform: rotate(90deg);
+}*/
+
+/*けんぼギター*/
+
+/**/
