@@ -9,9 +9,7 @@ header, #slide, #breadcrumb, #contents, footer {
 	width: 320px;
 }
 
-body {
-	background: #FFFAC6;
-}
+
 
 nav {
 	width: 320px;
@@ -26,7 +24,28 @@ nav ul {
 
 nav ul li {
 	margin: 0 auto;
+    width: 320px;
+
 }
+
+nav ul li#nav_keion a{
+  background-image: url(../image/210.229.17.160-3.gif);
+}
+
+nav ul li#nav_yuzuguitar a{
+  background-image: url(../image/210.229.17.160-6.gif);
+}
+
+nav ul li#nav_myguitar a{
+  background-image: url(../image/210.229.17.160-9.gif);
+}
+
+nav ul li#nav_blog a{
+  background-image: url(../image/210.229.17.160-12.gif);
+}
+
+
+
 
 #stage {
 	width: 320px;
