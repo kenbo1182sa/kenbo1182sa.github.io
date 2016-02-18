@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 header, #slide, #breadcrumb, #contents, footer {
 	width: 320px;
@@ -100,9 +100,8 @@ div#photo1, #photo2, #photo3, #photo4 {
 }
 
 
-#acMenu dd.honbun li{
+#acMenu dd.honbun{
   overflow: hidden;
-  font-size: 2em;
 }
 
 #acMenu dd .youtube-player {
