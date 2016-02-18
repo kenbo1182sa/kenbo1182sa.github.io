@@ -98,6 +98,10 @@ div#photo1, #photo2, #photo3, #photo4 {
   overflow: hidden;
 }
 
+#acMenu dd .youtube-player {
+  width: 320px;
+}
+
 #sub {
 	margin-left: 10px;
 	float: none;
