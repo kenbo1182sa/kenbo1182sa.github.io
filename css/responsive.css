@@ -9,12 +9,7 @@ header, #slide, #breadcrumb, #contents, footer {
 	width: 320px;
 }
 
-body {
-  background-image: url(../image/IMG1.jpg), url(../image/IMG_9.jpg);
-  background-repeat: repeat-y, repeat-y;
-  background-position: top right, top left;
-  background-size: 28% 50%;
-}
+
 
 nav {
 	width: 320px;
@@ -99,7 +94,6 @@ div#photo1, #photo2, #photo3, #photo4 {
 }
 
 #acMenu dd.honbun {
-  float: left;
 width: 308px;
 margin: 0;
 padding-right: 3px;
@@ -109,10 +103,6 @@ padding-left: 3px;
 
 #acMenu dd.honbun{
   overflow: hidden;
-}
-
-#acMenu dd.honbun .image_right{
-  width: 305px;
 }
 
 #acMenu dd .youtube-player {
