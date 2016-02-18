@@ -23,7 +23,7 @@ nav ul {
 
 nav ul li {
 	margin: 0 auto;
-    width: 320px;
+  width: 320px;
 
 }
 
@@ -65,7 +65,7 @@ nav ul li#nav_blog a{
 }
 
 div#photo1, #photo2, #photo3, #photo4 {
-		width: 320px;
+	width: 320px;
 	height: 301px;
 	padding-top: 0;
   position: absolute;
@@ -93,20 +93,21 @@ div#photo1, #photo2, #photo3, #photo4 {
 }
 
 #acMenu dd.honbun {
-width: 308px;
-margin: 0;
-padding-right: 3px;
-padding-left: 3px;
+  width: 308px;
+  margin: 0;
+  padding-right: 3px;
+  padding-left: 3px;
 }
 
 
-#acMenu dd.honbun{
+#acMenu dd.honbun li{
   overflow: hidden;
+  font-size: 2em;
 }
 
 #acMenu dd .youtube-player {
   width: 308px;
-margin: 0 auto;
+  margin: 0 auto;
 }
 #acMenu dd img.image_right {
   padding-right: 14px;
