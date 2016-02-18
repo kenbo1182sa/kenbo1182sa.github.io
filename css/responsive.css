@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
 header, #slide, #breadcrumb, #contents, footer {
@@ -78,6 +78,10 @@ div#photo1, #photo2, #photo3, #photo4 {
 	height: 301px;
 }
 
+#main {
+  margin: 0;
+}
+
 #main #acMenu{
 	width: 320px;
 }
@@ -91,6 +95,8 @@ div#photo1, #photo2, #photo3, #photo4 {
 
 #acMenu dd.honbun {
   float: left;
+width: 305px;
+margin: 0 auto;
 }
 
 
@@ -99,8 +105,10 @@ div#photo1, #photo2, #photo3, #photo4 {
 }
 
 #acMenu dd .youtube-player {
-  width: 320px;
+  width: 305px;
+margin: 0 auto;
 }
+
 
 #sub {
 	margin-left: 10px;
