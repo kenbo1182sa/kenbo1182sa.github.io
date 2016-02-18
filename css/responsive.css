@@ -1,5 +1,4 @@
 ﻿@charset "utf-8";
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
 header, #slide, #breadcrumb, #contents, footer {
 	width: 320px;
