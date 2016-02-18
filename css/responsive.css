@@ -95,9 +95,9 @@ div#photo1, #photo2, #photo3, #photo4 {
 
 #acMenu dd.honbun {
   float: left;
-width: 305px;
+width: 308px;
 margin: 0;
-padding-right: 0;
+padding-right: 3px;
 padding-left: 3px;
 }
 
