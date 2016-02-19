@@ -60,6 +60,7 @@
 $(function(){
         $("#acMenu dt").on("click", function() {
             $(this).next().slideToggle(1200);
+            // $(this).toggleClass("active");//追加部分
         });
 });
 
