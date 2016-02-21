@@ -112,6 +112,10 @@ div#photo1, #photo2, #photo3, #photo4 {
   padding-right: 14px;
 }
 
+#acMenu dd img.image_center {
+    width: 308px;
+    height: auto;
+}
 #sub {
 	margin-left: 10px;
 	float: none;
