@@ -10,6 +10,7 @@ body {
 	background-attachment: fixed, fixed;
 	background-size: 28% 100%;
 	margin: 0;
+  line-height: 1.5em;
 }
 
 header, nav, #breadcrumb,#slide, #contents, footer {
@@ -63,13 +64,15 @@ nav ul li#nav_blog a{
   background-image: url(../image/61.210.152.127-13.gif);
 }
 
-
+#breadcrumb {
+  border-bottom: solid 1px;
+}
 
 
 #breadcrumb ul {
 	list-style-type: none;
-	padding: 20px 16px 16px 0;
-	margin: 0;
+	padding: 10px 0 0 0;
+	margin: 0 0 10px 0;
 }
 #breadcrumb ul li {
 	display: inline;
@@ -247,7 +250,9 @@ nav ul li a:hover{
  100% { left:-100%; }
 }
 
+marquee {
 
+}
 
 
 #main #gaiyou h2 {
@@ -256,6 +261,8 @@ nav ul li a:hover{
 
 #main #gaiyou h3 {
 	margin-top: 0;
+  padding-top: 9px;
+  border-top: solid 1px;
 }
 
 #main #yuzuman {
