@@ -94,6 +94,7 @@ nav ul li#nav_blog a{
 #sub {
 	width: 230px;
 	float: right;
+  overflow: hidden;
 }
 
 footer {
